@@ -146,7 +146,7 @@ function chart(){
         data: {
           labels: [...arrayWithoutDuplicatedDates],
           datasets: [{
-            label: '# of Votes',
+            label: $('input').val(),
             data: [...amountArray],
             borderWidth: 1
           }]
